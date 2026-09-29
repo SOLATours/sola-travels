@@ -25,7 +25,7 @@
 
 <h2>What stays on your device</h2>
 <ul>
-  <li>Trips, itineraries, saved links, reservations and their screenshots, airline tickets and boarding pass images, packing lists, budgets, journal entries, emergency notes, slideshows, and copies of the photos you choose to add. The app uses Apple's photo picker, so it only ever receives the photos you pick and never has access to your photo library.</li>
+  <li>Trips, itineraries, saved links, reservations and their screenshots, airline tickets and boarding pass images, packing lists, budgets, journal entries, emergency notes, trip decks, and copies of the photos you choose to add. The app uses Apple's photo picker, so it only ever receives the photos you pick and can never see your photo library. It adds a picture to your library only if you tap Save Image.</li>
   <li>Your traveler profile (home airport, travel card, travel style) and settings, stored in the app's own data file.</li>
   <li>Family members' Known Traveler Numbers, Redress Numbers and passport expiration dates, loyalty program numbers, card credits and API keys, stored in the iOS Keychain.</li>
 </ul>
@@ -34,7 +34,7 @@
 <h2>What is sent to other services, and when</h2>
 <ul>
   <li><strong>AI providers (Anthropic or xAI).</strong> Nothing is sent until you allow it (on the welcome screen or in Settings → AI &amp; API keys), and you can turn it off any time. When you use an AI feature, the app sends your request directly from your iPhone to the provider you chose, using your own API key. The request can include trip details, saved links, pasted booking pages or confirmation emails, receipt and screenshot text, journal entries, photos you pick for a recap, your travel preferences, family members' names and which trusted-traveler programs they have, loyalty program names, status and point balances, and card-credit balances. Known Traveler, Redress and loyalty member numbers you save are never included, and the app removes ID and membership numbers it detects in pasted or shared text before sending. Photos you pick for a recap are sent as images, so avoid choosing photos that show documents. Your API key is used only to authenticate with the provider. The provider's own privacy policy and terms apply: <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>, <a href="https://x.ai/legal/privacy-policy">xAI</a>.</li>
-  <li><strong>Receipts and confirmation screenshots.</strong> When you scan a receipt or add a confirmation screenshot, its text is read on your device. Only that text, with ID and membership numbers removed, is sent to your AI provider to fill in the details. The image itself stays on your device. The camera is used only while you scan.</li>
+  <li><strong>Receipts, confirmations and ticket screenshots.</strong> When you scan a receipt or add a confirmation, ticket or boarding pass screenshot, its text is read on your device. Only that text, with ID and membership numbers removed, is sent to your AI provider to fill in the details. The image itself stays on your device. The camera is used only while you scan.</li>
   <li><strong>Voice.</strong> If you ask your travel agent by voice, the microphone is used only while you're speaking. Apple's speech recognition turns it into text, on your device when it supports that. The text is then treated like a typed question. Answers read aloud use your device's built-in voice.</li>
   <li><strong>Sharing a trip.</strong> If you choose "Share trip with family", the app creates a trip file that you send yourself (by Messages, AirDrop or email). It includes the itinerary, reservations, flight details, links, packing list, slideshow and trip notes. It does not include photos, screenshots, ticket numbers, your journal, budget, emergency notes, or anyone's ID and loyalty numbers.</li>
   <li><strong>Exchange rates.</strong> The app downloads daily currency rates from ExchangeRate-API (open.er-api.com). No personal information is sent.</li>
@@ -53,7 +53,7 @@
 </ul>
 
 <h2>Notifications, widgets and Lock Screen</h2>
-<p>Booking and card-credit reminders are local notifications scheduled on your device. The home screen widget and Lock Screen travel card show trip details from your device only; the Lock Screen card can show a confirmation number, seat and gate while it's active. Links or text you share into SOLA Travels from other apps are stored on your device until the app files them.</p>
+<p>Booking and card-credit reminders are local notifications scheduled on your device. The Home Screen widget and Lock Screen travel card show trip details from your device only; the Lock Screen card can show a confirmation number, seat and gate while it's active. Links or text you share into SOLA Travels from other apps are stored on your device until the app files them.</p>
 
 <h2>Children</h2>
 <p>SOLA Travels is not directed to children under 13.</p>
